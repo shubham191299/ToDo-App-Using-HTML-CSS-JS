@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto+Slab&family=Roboto:ital,wght@1,300&family=Varela+Round&display=swap');
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('mono.ttf');
+   }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: #ffffff;
+    /* font-family: 'Roboto Slab', serif; */
+}
+
+.container{
+    width: 60%;
+    min-height: 90vh;
+    margin: 30px auto;
+    text-align: center;
+    box-shadow: 0 0 10px #000;
+    border-radius: 60px;
+    background-color: #E9FFF9;
+}
+
+.container h1{
+    padding: 20px;
+    font-size: 40px;
+    color: #fff;
+    box-shadow: 0 0 10px rgb(230, 125, 125);
+    border-radius: 60px;
+    text-shadow: 2px 2px 5px #ac0000, 4px 4px 5px #000, 6px 6px 5px #ac0000;
+    width: 40%;
+    margin: 10px auto;
+    position: relative;
+    top: 10px;
+    background-color: white;
+}
+
+.container form{
+    padding: 20px 0;
+    margin: 10px auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container form input{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(230, 125, 125);
+    outline: none;
+    font-size: 12px;
+}
+
+.container form button{
+    width: 18%;
+    height: 2.5rem;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(230, 125, 125);
+    background-color: #fff;
+    color: white;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: bold;    
+    text-shadow: 0 0 10px #ac0000, 2px 2px 5px #000, 4px 4px 5px #ac0000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container form button:hover{
+    background-color: #ac0000;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+
+.wrapper .left{
+    width: 55%;
+    min-height: 18rem;
+    margin-left: 34px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 60px;
+    box-shadow: 0 0 10px #000;
+}
+
+.wrapper .right{
+    width: 30%;
+    height: 18rem;
+    background-color: white;
+    border-radius: 60px;
+    box-shadow: 0 0 10px #000;
+    margin-bottom: 20px;
+}
+
+.wrapper .right .innerRightTop{
+    width: 80%;
+    min-height: 20%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 60px;
+    box-shadow: 0 0 10px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 40px;
+    /* text-shadow: 2px 2px 2px cyan; */
+    font-family:'digital-clock-font';
+    font-weight: bold;
+    background-color: #E9FFF9;
+}
+
+.wrapper .right .innerRightBottom{
+    width: 80%;
+    min-height: 20%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 60px;
+    box-shadow: 0 0 10px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font: 2.5em sans-serif;
+    font-family:'digital-clock-font';
+    font-weight: bold;
+    background-color: #E9FFF9;
+}
+
+.wrapper .right .year{
+    width: 40%;
+    min-height: 30%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font: 2.5em sans-serif;
+    font-family:'digital-clock-font';
+    font-weight: bold;
+    background-color: #E9FFF9;
+}
+
+.wrapper .left ul{
+    list-style: none;
+    padding: 5px;
+    margin: 10px auto;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+.wrapper .left ul li{
+    background-color: #E9FFF9;
+    padding: 0 8px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 60px;
+    box-shadow: 0 0 10px #000;
+}
+
+.wrapper .left ul li button{
+    width: 18%;
+    height: 2rem;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(230, 125, 125);
+    background-color: #fff;
+    color: white;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: bold;    
+    text-shadow: 0 0 10px #ac0000, 2px 2px 5px #000, 4px 4px 5px #ac0000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .left ul li button:hover{
+    background-color: #ac0000;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.wrapper .left ul li span{
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.wrapper .left ul li .checked{
+    color: #555;
+    text-decoration: line-through;
+}
