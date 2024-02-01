@@ -36,7 +36,7 @@ html,body{
 }
 
 .container form{
-    margin: 0 auto;
+    margin-left: 4.7%;
     width: 90%;
     display: flex;
     justify-content: center;
@@ -78,16 +78,14 @@ html,body{
 
 .wrapper{
     width: 100%;
-    height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 30px auto;
 }
 
 .wrapper .left{
     width: 55%;
     min-height: 18rem;
-    margin-left: 34px;
     margin-bottom: 40px;
     background-color: #fff;
     box-shadow: 0 0 10px #000;
