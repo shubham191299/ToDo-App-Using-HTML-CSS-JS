@@ -17,7 +17,6 @@ html,body{
 
 .container{
     width: 60%;
-    min-height: 90vh;
     margin: 30px auto;
     text-align: center;
     box-shadow: 0 0 10px #000;
@@ -27,25 +26,22 @@ html,body{
 
 .container h1{
     padding: 20px;
-    font-size: 40px;
+    font-size: 3rem;
     color: #fff;
-    box-shadow: 0 0 10px rgb(230, 125, 125);
     border-radius: 60px;
     text-shadow: 2px 2px 5px #ac0000, 4px 4px 5px #000, 6px 6px 5px #ac0000;
-    width: 40%;
     margin: 10px auto;
     position: relative;
     top: 10px;
-    background-color: white;
 }
 
 .container form{
-    padding: 20px 0;
-    margin: 10px auto;
+    margin: 0 auto;
     width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .container form input{
@@ -55,12 +51,9 @@ html,body{
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(230, 125, 125);
     outline: none;
-    font-size: 12px;
 }
 
 .container form button{
-    width: 18%;
-    height: 2.5rem;
     padding: 10px;
     margin: 10px auto;
     border-radius: 10px;
@@ -95,9 +88,8 @@ html,body{
     width: 55%;
     min-height: 18rem;
     margin-left: 34px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     background-color: #fff;
-    border-radius: 60px;
     box-shadow: 0 0 10px #000;
 }
 
@@ -105,24 +97,21 @@ html,body{
     width: 30%;
     height: 18rem;
     background-color: white;
-    border-radius: 60px;
     box-shadow: 0 0 10px #000;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .wrapper .right .innerRightTop{
     width: 80%;
     min-height: 20%;
     margin: 20px auto;
-    background-color: #fff;
     border-radius: 60px;
     box-shadow: 0 0 10px #000;
     display: flex;
     justify-content: center;
     align-items: center;
     color: red;
-    font-size: 40px;
-    /* text-shadow: 2px 2px 2px cyan; */
+    font-size: 2.1em;
     font-family:'digital-clock-font';
     font-weight: bold;
     background-color: #E9FFF9;
@@ -139,7 +128,7 @@ html,body{
     justify-content: center;
     align-items: center;
     color: red;
-    font: 2.5em sans-serif;
+    font: 2.1em sans-serif;
     font-family:'digital-clock-font';
     font-weight: bold;
     background-color: #E9FFF9;
@@ -156,7 +145,7 @@ html,body{
     justify-content: center;
     align-items: center;
     color: red;
-    font: 2.5em sans-serif;
+    font: 2.1em sans-serif;
     font-family:'digital-clock-font';
     font-weight: bold;
     background-color: #E9FFF9;
@@ -183,7 +172,6 @@ html,body{
 }
 
 .wrapper .left ul li button{
-    width: 18%;
     height: 2rem;
     padding: 10px;
     margin: 10px;
